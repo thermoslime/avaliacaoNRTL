@@ -62,7 +62,7 @@ grafico_vazio =  {'data': [], 'layout': {
 
 # Inicializando o aplicativo
 app = Dash(__name__, external_stylesheets= [dbc.themes.BOOTSTRAP], suppress_callback_exceptions = True, use_pages=True)
-
+server = app.server
 
 ############ principal ################
 
