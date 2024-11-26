@@ -1089,3 +1089,7 @@ def download_csv(n_click_download,
         raise PreventUpdate
 
 # Tupla com os eixos 1-2, 1-3 e 2-3
+
+# Final, executando
+if __name__ == '__main__':
+    app.run(debug=True)
