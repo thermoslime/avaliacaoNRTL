@@ -506,7 +506,7 @@ def Calculos_tabela(nome1, nome2, nome3,
 
             ########### CÁLCULO DOS EIXOS ################
             # Cálculo dos eixos 3d
-            eixo_x, eixo_y, eixo_z = Malha_Superficie(Alfa_ij, tau_ij, 190)
+            eixo_x, eixo_y, eixo_z = Malha_Superficie(Alfa_ij, tau_ij, 100)
 
             # Cálculo dos eixos 2d
             eixo_12_G = DeltaG_Mistura_par_binario(eixo_xy, Alfa_ij, tau_ij, par = '1-2', mostrar = False)
